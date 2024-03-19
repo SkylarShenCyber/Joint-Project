@@ -1,0 +1,4 @@
+<launch>
+    <node name="briker_strategy_node" pkg="briker_strategy" type="briker_strategy_node" output="screen"/>
+    <include file="$(find square_vision)/launch/square_out.launch"/>
+</launch>

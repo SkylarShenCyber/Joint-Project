@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="line_vision" type="line_vision_node" name="line_vision_node"/>
+	<rosparam file="$(find line_vision)/config/line_vision_param.yaml" command="load" />  
+</launch>

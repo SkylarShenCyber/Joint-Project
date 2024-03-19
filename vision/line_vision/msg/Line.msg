@@ -1,0 +1,2 @@
+geometry_msgs/Point topPoint
+geometry_msgs/Point bottomPoint

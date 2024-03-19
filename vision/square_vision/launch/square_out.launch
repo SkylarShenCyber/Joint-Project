@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="square_vision" type="square_vision_node" name="square_vision_node"/>
+	<rosparam file="$(find square_vision)/config/square_vision_param.yaml" command="load" />  
+</launch>

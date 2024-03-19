@@ -1,0 +1,10 @@
+thre_h_min_1: 0
+thre_h_max_1: 10
+thre_s_min_: 43
+thre_s_max_: 255
+thre_v_min_: 46
+thre_v_max_: 255
+thre_h_min_2: 156
+thre_h_max_2: 180
+thre_canny_1: 40
+thre_canny_2: 60

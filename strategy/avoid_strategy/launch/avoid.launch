@@ -1,0 +1,4 @@
+<launch>
+    <node name="avoid_strategy_node" pkg="avoid_strategy" type="avoid_strategy_node" output="screen"/>
+    <include file="$(find mine_vision)/launch/mine_out.launch"/>
+</launch>

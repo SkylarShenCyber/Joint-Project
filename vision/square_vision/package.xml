@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>square_vision</name>
+  <version>0.0.0</version>
+  <description>The square_vision package</description>
+  <license>TODO</license>
+  <maintainer email="zhang@todo.todo">zhang</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+<depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>opencv2</depend>
+  <depend>message_generation</depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>

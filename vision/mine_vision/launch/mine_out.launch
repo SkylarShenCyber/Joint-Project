@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="mine_vision" type="mine_vision_node" name="mine_vision_node"/>
+	<rosparam file="$(find mine_vision)/config/mine_vision_param.yaml" command="load" />  
+</launch>
